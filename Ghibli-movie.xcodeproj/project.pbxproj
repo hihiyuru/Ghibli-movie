@@ -7,23 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C6473F752A8F88B400A7B62D /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6473F742A8F88B400A7B62D /* MovieDetailViewController.swift */; };
+		C6473F772A8FF1C700A7B62D /* webViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6473F762A8FF1C700A7B62D /* webViewController.swift */; };
 		C6659A602A8E4D70008562B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6659A5F2A8E4D70008562B0 /* AppDelegate.swift */; };
 		C6659A622A8E4D70008562B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6659A612A8E4D70008562B0 /* SceneDelegate.swift */; };
-		C6659A642A8E4D70008562B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6659A632A8E4D70008562B0 /* ViewController.swift */; };
 		C6659A672A8E4D70008562B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6659A652A8E4D70008562B0 /* Main.storyboard */; };
 		C6659A692A8E4D74008562B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6659A682A8E4D74008562B0 /* Assets.xcassets */; };
 		C6659A6C2A8E4D74008562B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6659A6A2A8E4D74008562B0 /* LaunchScreen.storyboard */; };
+		C6659A782A8E5885008562B0 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6659A772A8E5885008562B0 /* ListTableViewCell.swift */; };
+		C6659A7A2A8E58AC008562B0 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6659A792A8E58AC008562B0 /* SearchTableViewCell.swift */; };
+		C6659A7C2A8E72E6008562B0 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6659A7B2A8E72E6008562B0 /* Movie.swift */; };
+		C6659A7F2A8F4E76008562B0 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6659A7E2A8F4E76008562B0 /* MovieListViewController.swift */; };
+		C6B21E7E2A8F5B83001018A0 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = C6B21E7D2A8F5B83001018A0 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C6473F742A8F88B400A7B62D /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		C6473F762A8FF1C700A7B62D /* webViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webViewController.swift; sourceTree = "<group>"; };
 		C6659A5C2A8E4D70008562B0 /* Ghibli-movie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ghibli-movie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6659A5F2A8E4D70008562B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6659A612A8E4D70008562B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C6659A632A8E4D70008562B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C6659A662A8E4D70008562B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C6659A682A8E4D74008562B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6659A6B2A8E4D74008562B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6659A6D2A8E4D74008562B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6659A772A8E5885008562B0 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		C6659A792A8E58AC008562B0 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		C6659A7B2A8E72E6008562B0 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		C6659A7E2A8F4E76008562B0 /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6B21E7E2A8F5B83001018A0 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +68,44 @@
 		C6659A5E2A8E4D70008562B0 /* Ghibli-movie */ = {
 			isa = PBXGroup;
 			children = (
+				C6659A7D2A8E72EE008562B0 /* models */,
+				C6659A762A8E585C008562B0 /* Views */,
+				C6659A732A8E517E008562B0 /* View Controllers */,
 				C6659A5F2A8E4D70008562B0 /* AppDelegate.swift */,
 				C6659A612A8E4D70008562B0 /* SceneDelegate.swift */,
-				C6659A632A8E4D70008562B0 /* ViewController.swift */,
 				C6659A652A8E4D70008562B0 /* Main.storyboard */,
 				C6659A682A8E4D74008562B0 /* Assets.xcassets */,
 				C6659A6A2A8E4D74008562B0 /* LaunchScreen.storyboard */,
 				C6659A6D2A8E4D74008562B0 /* Info.plist */,
 			);
 			path = "Ghibli-movie";
+			sourceTree = "<group>";
+		};
+		C6659A732A8E517E008562B0 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C6659A7E2A8F4E76008562B0 /* MovieListViewController.swift */,
+				C6473F742A8F88B400A7B62D /* MovieDetailViewController.swift */,
+				C6473F762A8FF1C700A7B62D /* webViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C6659A762A8E585C008562B0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C6659A772A8E5885008562B0 /* ListTableViewCell.swift */,
+				C6659A792A8E58AC008562B0 /* SearchTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C6659A7D2A8E72EE008562B0 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				C6659A7B2A8E72E6008562B0 /* Movie.swift */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +124,9 @@
 			dependencies = (
 			);
 			name = "Ghibli-movie";
+			packageProductDependencies = (
+				C6B21E7D2A8F5B83001018A0 /* Kingfisher */,
+			);
 			productName = "Ghibli-movie";
 			productReference = C6659A5C2A8E4D70008562B0 /* Ghibli-movie.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +155,9 @@
 				Base,
 			);
 			mainGroup = C6659A532A8E4D70008562B0;
+			packageReferences = (
+				C6B21E7C2A8F5B83001018A0 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = C6659A5D2A8E4D70008562B0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +185,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6659A642A8E4D70008562B0 /* ViewController.swift in Sources */,
+				C6659A782A8E5885008562B0 /* ListTableViewCell.swift in Sources */,
+				C6659A7C2A8E72E6008562B0 /* Movie.swift in Sources */,
 				C6659A602A8E4D70008562B0 /* AppDelegate.swift in Sources */,
+				C6473F752A8F88B400A7B62D /* MovieDetailViewController.swift in Sources */,
+				C6473F772A8FF1C700A7B62D /* webViewController.swift in Sources */,
+				C6659A7F2A8F4E76008562B0 /* MovieListViewController.swift in Sources */,
 				C6659A622A8E4D70008562B0 /* SceneDelegate.swift in Sources */,
+				C6659A7A2A8E58AC008562B0 /* SearchTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +415,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C6B21E7C2A8F5B83001018A0 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C6B21E7D2A8F5B83001018A0 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C6B21E7C2A8F5B83001018A0 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C6659A542A8E4D70008562B0 /* Project object */;
 }
